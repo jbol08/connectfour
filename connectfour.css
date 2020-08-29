@@ -14,20 +14,17 @@ h2 {
 
 /* game board table */
 #board td {
-    height: 45px;
-    width:60px;
-    border: solid 1px #666;
-    padding: 1.5rem;
-    border: 1px solid black;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     background: white;
+    margin: 5px;
+    padding:2px;
   }
-  table {
-
-margin-left: 30%;
-margin-right: 30%;
+ table {
+padding: 10px;
 background: royalblue;
-padding: .5rem;
+margin: auto;
 box-shadow: 5px 5px black;
 border: 1px solid black;
   }
@@ -36,9 +33,9 @@ border: 1px solid black;
   
 .piece {
     /* TODO: make into circles */
-    margin: 0px;
-   height:50px;
-   width: 50px;
+  
+   height:60.2px;
+   width: 60.2px;
      border-radius: 50%;
 }
 .piece.p1{
