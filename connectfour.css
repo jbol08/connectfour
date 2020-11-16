@@ -1,73 +1,70 @@
-
+ 
+ 
 body{
-    background-color: grey;
+  background-color: grey;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 h2 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 /* game board table */
 #board td {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background: white;
-    margin: 5px;
-    padding:2px;
-  }
- table {
-padding: 10px;
-background: royalblue;
-margin: auto;
-box-shadow: 5px 5px black;
-border: 1px solid black;
-  }
-  
-  /* pieces are div within game table cells: draw as colored circles */
-  
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: white;
+  padding:2px;
+}
+table {
+ padding: 10px;
+ background: royalblue;
+ margin: auto;
+ box-shadow: 5px 5px black;
+ border: 1px solid black;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
 .piece {
-    /* TODO: make into circles */
-  
-   height:60.2px;
-   width: 60.2px;
-     border-radius: 50%;
+ height:60.2px;
+ width: 60.2px;
+ border-radius: 50%;
 }
 .piece.p1{
-    background-color: red;
+  background-color: red;
+  margin: auto;
 }
 .piece.p2{
-    background-color: blue;
+  background-color: blue;
+  margin: auto;
 }    
-  /* TODO: make pieces red/blue,  depending on player 1/2 piece */
-  
-  /* column-top is table row of clickable areas for each column */
-  
-  #column-top td {
-    border: dashed 1px black;
-    border-radius: 50%;
-  }
-  
-  #column-top td:hover {
-    background-color: gold;
-    border-radius: 50%;
-  }
-  #reset-button {
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    background-color: lightgray;
-    color: black;
-    border: 3px solid black;
-    width: 20rem;
-    border-radius: 12px;
-    cursor: pointer;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+
+#column-top td {
+  border: dashed 1px black;
+  border-radius: 50%;
+}
+
+#column-top td:hover {
+  background-color: gold;
+  border-radius: 50%;
+}
+#reset-button {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  background-color: lightgray;
+  color: black;
+  border: 3px solid black;
+  width: 20rem;
+  border-radius: 12px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
